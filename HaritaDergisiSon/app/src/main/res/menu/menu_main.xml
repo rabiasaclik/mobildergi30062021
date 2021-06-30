@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.haritagenelmudurlugu.haritadergisi.MainActivity">
+
+
+    <item
+        android:id="@+id/action_hakkinda"
+        android:orderInCategory="200"
+        android:title="@string/hakkinda"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/outline_assignment_white_24dp"
+        />
+
+
+
+    <item
+        android:id="@+id/action_mail"
+        android:orderInCategory="400"
+        android:title="e-mail"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_dialog_email"/>
+
+</menu>

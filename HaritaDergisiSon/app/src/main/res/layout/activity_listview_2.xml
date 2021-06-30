@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Single List Item Design -->
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/label"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip"
+    android:textColor="#262626"
+    android:textSize="16dip"
+    android:drawableLeft="@drawable/baseline_archive_black_18dp"
+    android:textStyle="bold"
+    android:layout_marginLeft="5dp"
+    android:drawablePadding="10dp"
+    android:fontFamily="sans-serif-condensed">
+</TextView>

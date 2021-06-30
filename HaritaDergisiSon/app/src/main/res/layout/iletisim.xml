@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/baslikIletisim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="3dp"
+        android:text="İLETİŞİM"/>
+
+
+    <TextView
+        android:id="@+id/altbaslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harita Genel Müdürlüğü+"
+        android:textStyle="bold"
+        android:layout_below="@+id/baslikIletisim"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="6dp"
+        />
+
+    <TextView
+        android:id="@+id/adres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/altbaslik"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="3dp"
+        android:text=" Tıp Fakültesi Caddesi 06590 Cebeci/ANKARA"/>
+
+    <TextView
+        android:id="@+id/telefon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adres"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="3dp"
+        android:text=" 0 312 595 22 22"/>
+
+    <TextView
+        android:id="@+id/faks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/telefon"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="4dp"
+        android:text="  0 312 320 14 95"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/faks"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="3dp"
+        android:text=" hgm@harita.gov.tr" />
+
+
+    <TextView
+        android:id="@+id/donerSermaye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="10dp"
+        android:text="Döner Sermaye"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tel1"
+        android:layout_below="@id/donerSermaye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="4dp"
+        android:text=" 0 312 595 20 87" />
+
+    <TextView
+        android:id="@+id/tel2"
+        android:layout_below="@id/tel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="4dp"
+        android:text=" 0 312 595 22 23" />
+
+
+    <TextView
+        android:id="@+id/email2"
+        android:layout_below="@id/tel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="4dp"
+        android:text=" doner.sermaye@harita.gov.tr"/>
+
+    <TextView
+        android:id="@+id/cografiurun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email2"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="10dp"
+        android:text="Coğrafi Ürün İkmal Kısmı"
+        android:textStyle="bold"/>
+
+
+
+    <TextView
+        android:id="@+id/tel3"
+        android:layout_below="@id/cografiurun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="4dp"
+        android:text=" 0 312 595 24 12" />
+
+    <TextView
+        android:id="@+id/tel4"
+        android:layout_below="@id/tel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="4dp"
+        android:text=" 0 312 595 24 15" />
+
+
+    <TextView
+        android:id="@+id/email3"
+        android:layout_below="@id/tel4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="4dp"
+        android:text=" harita.ikmali@harita.gov.tr"/>
+
+
+    <TextView
+        android:id="@+id/haritasatis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email3"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="10dp"
+        android:text="Harita Satış Bürosu"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/tel5"
+        android:layout_below="@id/haritasatis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="4dp"
+        android:text=" 0 312 595 20 72" />
+
+    <TextView
+        android:id="@+id/tel6"
+        android:layout_below="@id/tel5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="4dp"
+        android:text=" 0 312 595 23 28"/>
+
+    <TextView
+        android:id="@+id/haritacilikmüzesi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tel6"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="10dp"
+        android:text="Haritacılık Müzesi"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tel7"
+        android:layout_below="@id/haritacilikmüzesi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="4dp"
+        android:text=" 0 312 595 23 38"/>
+
+
+
+
+
+
+</RelativeLayout>
+</ScrollView>

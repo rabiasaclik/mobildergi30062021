@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_base_2">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="24dp"
+        android:id="@+id/No"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="20dp"
+        android:id="@+id/Gorev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="54dp" />
+
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+       android:layout_marginLeft="54dp"
+        android:id="@+id/rutbeAd"
+        android:layout_below="@+id/Gorev"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!--  2. Satır -->
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginLeft="24dp"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/No1"
+        android:layout_below="@+id/No"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/Gorev1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Gorev"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/rutbeAd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Gorev1"
+        android:layout_marginLeft="54dp"
+        />
+
+
+    <!-- 3. Satır -->
+
+    <TextView
+        android:layout_marginLeft="24dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/No2"
+        android:layout_below="@+id/No1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/Gorev2"
+        android:layout_below="@+id/Gorev1"
+        android:layout_marginLeft="54dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/rutbeAd2"
+        android:layout_marginLeft="54dp"
+        android:layout_below="@+id/Gorev2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- 4. Satır -->
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginLeft="24dp"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/No3"
+        android:layout_below="@+id/No2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/Gorev3"
+        android:layout_below="@+id/Gorev2"
+        android:layout_marginLeft="54dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/rutbeAd3"
+        android:layout_marginLeft="54dp"
+        android:layout_below="@+id/Gorev3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- 5. Satır -->
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginLeft="24dp"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/No4"
+        android:layout_below="@id/No3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/Gorev4"
+        android:layout_marginLeft="54dp"
+        android:layout_below="@id/Gorev3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/rutbeAd4"
+        android:layout_marginLeft="54dp"
+        android:layout_below="@+id/Gorev4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

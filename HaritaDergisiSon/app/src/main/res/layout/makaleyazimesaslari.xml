@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/baslik"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="HARİTA DERGİSİNDE YAYIMLANABİLECEK YAZILAR"
+            />
+
+        <TextView
+            android:id="@+id/indirme"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textColor="#074b94"
+            android:text="MAKALE YAZIM ŞABLONUNU İNDİRMEK İÇİN TIKLAYINIZ"
+            android:layout_below="@+id/baslik"
+            />
+
+
+        <TextView
+    android:id="@+id/paragraf1"
+    android:layout_width="wrap_content"
+    android:layout_below="@+id/indirme"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="7dp"
+    android:lineSpacingExtra="8dp"/>
+
+        <TextView
+            android:id="@+id/baslik2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/paragraf1"
+            android:gravity="center"
+            android:text="YAZIM ESASLARI"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/paragraf2"
+            android:layout_below="@+id/baslik2"
+            android:lineSpacingExtra="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+</ScrollView>

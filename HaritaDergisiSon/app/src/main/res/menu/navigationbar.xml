@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_iletisim"
+        android:enabled="true"
+        android:icon="@drawable/outline_phone_white_24dp"
+        android:title="İletişim"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_twitter"
+        android:enabled="true"
+        android:icon="@drawable/twitterlogo"
+        android:title="Twitter"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_instagram"
+        android:enabled="true"
+        android:icon="@drawable/instagramlogo"
+        android:title="Instagram"
+        app:showAsAction="ifRoom" />
+</menu>

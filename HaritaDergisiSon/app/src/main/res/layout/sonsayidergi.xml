@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_base_new">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textSize="16dip"
+        android:text="Harita Dergisi son sayısına aşağıdan ulaşabilirsiniz."
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listviewLinks"
+        android:layout_marginTop="40dp"
+        android:divider="#111111"
+        android:dividerHeight="2dp"/>
+
+</RelativeLayout>

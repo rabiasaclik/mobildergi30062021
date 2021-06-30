@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/araAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ara"
+        />
+
+    <ListView
+        android:id="@+id/listviewLinks1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/araAd"
+        android:divider="#111111"
+        android:dividerHeight="2dp"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true" />
+
+</RelativeLayout>

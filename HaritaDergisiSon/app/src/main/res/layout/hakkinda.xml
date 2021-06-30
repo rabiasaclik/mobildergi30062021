@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/baslikHakkinda"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:textSize="20dp"
+            android:text="YAYIN İLKELERİ" />
+
+        <TextView
+            android:id="@+id/paragraf1"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/baslikHakkinda"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:lineSpacingExtra="8dp"/>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="200dp"
+            android:layout_below="@id/paragraf1"
+            android:src="@drawable/hakkinda_image_1"
+            />
+
+        <TextView
+            android:id="@+id/paragraf2"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/imageView1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:lineSpacingExtra="8dp"/>
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="200dp"
+            android:layout_below="@id/paragraf2"
+            android:src="@drawable/hakkinda_image_2"
+            />
+
+
+        <TextView
+            android:id="@+id/paragraf3"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/imageView2"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:lineSpacingExtra="8dp"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="200dp"
+            android:layout_below="@id/paragraf3"
+            android:src="@drawable/hakkinda_image_3"
+            />
+
+
+        <TextView
+            android:id="@+id/paragraf4"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/imageView3"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:lineSpacingExtra="8dp"/>
+
+
+    </RelativeLayout>
+</ScrollView>
